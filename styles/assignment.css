@@ -15,7 +15,7 @@ header.background-img {
     flex-direction: column;
     justify-content: space-between;
     padding: 40px;
-    color: #000000;
+    
     
 }
 .logo{
@@ -59,6 +59,7 @@ header.background-img {
 .action{
     flex:1;
     padding: 30px;
+     
 }
 
 .action-title{
@@ -69,6 +70,13 @@ header.background-img {
 .action-text {
   font-size: 15px;
   margin-bottom: 20px;
+}
+
+.action-img {
+    
+max-width: 50%;
+border-radius: 10px 20px;
+   
 }
 
 
