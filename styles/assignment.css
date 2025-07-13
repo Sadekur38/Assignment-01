@@ -127,3 +127,56 @@ opacity: 100%;
     margin: 5px;
 
 }
+/* user's feedback */
+
+.feedback-section {
+  background-color: #f7f9ff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feedback-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 40px;
+}
+
+
+.feedback-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.feedback-text {
+  font-size: 14px;
+  color: #444;
+  margin: 10px 0 20px;
+}
+
+.feedback-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+}
+.feedback-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+.feedback-date {
+  font-size: 12px;
+  color: #888;
+}
