@@ -45,7 +45,7 @@ header.background-img {
     padding: 12px 24px;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    
     
 }
 .btn-primary:hover{
@@ -81,7 +81,7 @@ header.background-img {
     
 max-width: 50%;
 border-radius: 20px;
-opacity: 100%;
+
    
 }
 /* user-section */
@@ -256,7 +256,6 @@ form button {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  width: fit-content;
   transition: background 0.2s ease;
 }
 
