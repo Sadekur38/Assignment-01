@@ -26,6 +26,7 @@ header.background-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .hero-content {
     text-align: center;
@@ -40,11 +41,34 @@ header.background-img {
 .btn-primary {
     background-color: #4E47FF;
     border: none;
-    color: #fff;
+    color: white;
     padding: 12px 24px;
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
+}
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 60px;
+    background-color:#FFFFFF;
+    color: black;
+}
+
+.action{
+    flex:1;
+    padding: 30px;
+}
+
+.action-title{
+    font-size: 35px;
+    margin-bottom: 10px 20px;
+}
+
+.action-text {
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 
