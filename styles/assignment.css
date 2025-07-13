@@ -46,6 +46,10 @@ header.background-img {
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
+    
+}
+.btn-primary:hover{
+  background-color: #d31226;
 }
 /* action style */
 .action-section {
@@ -259,4 +263,35 @@ form button {
 form button:hover {
   background-color: #d31226;
 }
+/* footer section */
+.footer-section {
+    background: #ffffff;
+    padding: 45px;
+    text-align: center;
+    color: #000;
+}
 
+.footer-logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4E47FF;
+}
+
+.footer-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #000;
+}
+
+.footer-container .iteam a {
+    color:gray;
+    text-decoration: none;
+    font-size: 16px;
+}
